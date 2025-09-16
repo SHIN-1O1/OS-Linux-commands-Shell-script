@@ -129,27 +129,9 @@ grep Hello newfile
 
 ## OUTPUT
 
-grep -v hello newfile
-
-![s16](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/2fe32a57-58b5-4659-a3ab-dced1f9a7090)
-
-## OUTPUT
-
-cat newfile | grep -i "hello"
-![s17](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/2bdfdc07-95f0-437f-b599-4421377d6efc)
-
-
-## OUTPUT
-
-cat newfile | grep -i -c "hello"
-
-![s18](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/e5da9b4a-f613-479f-92c8-7b4d02c88773)
-
-## OUTPUT
-
 grep -R ubuntu /etc
-![s19](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/76e1c4f4-73cf-43d5-9cd4-77e031a9d8f5)
 
+<img width="1927" height="994" alt="Screenshot (71)" src="https://github.com/user-attachments/assets/9bb25264-ab74-4ba5-a830-8b6aeb5276a6" />
 
 ## OUTPUT
 
@@ -183,54 +165,24 @@ Unix is predecessor
 Linux is best in this World
 ^d
 ```
-![s22](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/e77ed5de-2550-4217-a526-30beee468e0d)
-
 
 egrep -w 'Hello|hello' newfile
-
-![s23](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/2a1f548d-46c1-4b32-89f7-9f7cede62d8f)
 
 ## OUTPUT
 
 egrep -w '(H|h)ello' newfile
-![s24](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/b76f3946-be82-453c-a6bf-634dacc57efd)
+
+<img width="589" height="413" alt="Screenshot (72)" src="https://github.com/user-attachments/assets/3124f6ea-1e37-4630-86c3-d32610fbccad" />
 
 
 ## OUTPUT
 
-egrep -w '(H|h)ell[a-z]' newfile
-![s25](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/91560f92-4631-4bac-af82-0d9f772ac820)
-
-
-## OUTPUT
-
-egrep '(^hello)' newfile
-![s26](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/b53b1880-c6f1-4566-9711-2cd5cb33abed)
-
-
-## OUTPUT
-
-egrep '(world$)' newfile
-![s27](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/46d45ba4-340f-46ad-9f73-9ea76c7bffea)
 
 
 ## OUTPUT
 
 egrep '(World$)' newfile
-![s28](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/2dad2bf4-dc14-44a6-a7f5-68bd784b9455)
-
-
-## OUTPUT
-
-egrep '((W|w)orld$)' newfile
-![s29](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/46ba0202-5976-45c6-aa82-5ac54df290b3)
-
-
-## OUTPUT
-
-egrep '[1-9]' newfile
-![s30](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/b89d0b9d-4f99-4a8e-9ef3-7b46a6d232a8)
-
+<img width="684" height="258" alt="Screenshot (73)" src="https://github.com/user-attachments/assets/cf00aac5-208f-404e-8aa2-a74f4073e1a2" />
 
 ## OUTPUT
 
@@ -243,7 +195,8 @@ egrep 'Linux.\*World' newfile
 ## OUTPUT
 
 egrep l{2} newfile
-![s31](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/6e37203c-47f3-43a0-bb7e-313e87a2d910)
+
+<img width="610" height="107" alt="Screenshot (74)" src="https://github.com/user-attachments/assets/38f80b39-0a8c-45a4-91a3-4bdfc4d77f36" />
 
 
 ## OUTPUT
@@ -268,97 +221,48 @@ cat > file23
 1001 | Ram | 10000 | HR
 ^d
 ```
-![s33](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/b42e05dc-53b5-4814-aaa0-e19838dd5ff3)
-
 
 sed -n -e '3p' file23
-![s34](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/ee2c2c68-4869-43fa-bb78-3aa255665b24)
-
-
-## OUTPUT
-
-sed -n -e '$p' file23
-
-![s35](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/66c427e4-9c69-4361-ab10-72e3bcbcdbc6)
 
 ## OUTPUT
 
 sed -e 's/Ram/Sita/' file23
-![s36](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/581bd435-7e50-4795-b4c1-cb821c4f855c)
+
+<img width="564" height="480" alt="Screenshot (75)" src="https://github.com/user-attachments/assets/77fdbf00-a451-4107-b26e-889d33e67b15" />
 
 
 ## OUTPUT
 
 sed -e '2s/Ram/Sita/' file23
-![s37](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/9cac1774-3a80-4bc4-802b-da467ac52278)
-
-
-## OUTPUT
 
 sed '/tom/s/5000/6000/' file23
-![s38](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/6407d217-36eb-4812-b5fb-0206f894161c)
-
-
-## OUTPUT
 
 sed -n -e '1,5p' file23
-![s39](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/a7976645-7f32-41d6-a2a4-de10b8e5d714)
-
-
-## OUTPUT
 
 sed -n -e '2,/Joe/p' file23
 
-![s40](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/14684372-b6e1-4a41-b0f9-ac24046442b4)
+
+<img width="634" height="900" alt="Screenshot (76)" src="https://github.com/user-attachments/assets/49284bcc-1368-4d13-abef-aa1113c70fdf" />
 
 
 ## OUTPUT
 
 sed -n -e '/tom/,/Joe/p' file23
-![s41](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/75055124-2a90-44a1-9fb9-cb4361c1d056)
-
-
-## OUTPUT
-
 seq 10
-![s42](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/c252d6b7-b82e-4d65-8a5f-a1b93fd53398)
-
-
-## OUTPUT
 
 seq 10 | sed -n '4,6p'
 
-![image](./images/s43.png)
-
-## OUTPUT
-
 seq 10 | sed -n '2,~4p'
-![s43](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/791b15e1-0e01-4c9b-a878-f04a12cc68bc)
-
-
-## OUTPUT
 
 seq 3 | sed '2a hello'
-![s45](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/6bad967c-7346-441f-8f56-b6551c1e2f8b)
-
-
-## OUTPUT
 
 seq 2 | sed '2i hello'
-![s46](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/fe27b991-5690-44c0-b4dc-25ff34c1c878)
-
-
-## OUTPUT
 
 seq 10 | sed '2,9c hello'
-![s47](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/8347bd1f-a553-429f-b663-990070cde0b9)
-
-
-## OUTPUT
 
 sed -n '2,4{s/^/$/;p}' file23
-![s48](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/f959643b-494a-4f38-a415-9f5f8d6978ad)
 
+<img width="569" height="817" alt="Screenshot (77)" src="https://github.com/user-attachments/assets/04eea3ea-a163-43b2-9138-e15c0ea52260" />
 
 ## OUTPUT
 
@@ -380,9 +284,6 @@ cat > file21
 
 sort file21
 
-![s50](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/6d12a2cb-c138-42e4-9a6f-a07e2f6a5ded)
-
-
 ## OUTPUT
 
 cat > file22
@@ -398,7 +299,7 @@ cat > file22
 ![s51](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/c2fec405-9b98-4e5d-a114-269892b859f0)
 
 uniq file22
-![s52](https://github.com/dharshan7200/OS-Linux-commands-Shell-script/assets/138850116/e4f8c5b6-f25a-4a9c-b660-0bfd7bed7b3c)
+<img width="559" height="592" alt="Screenshot (78)" src="https://github.com/user-attachments/assets/e5db9fa4-0e94-4129-b7a1-cdb41dc119a2" />
 
 
 ## OUTPUT
